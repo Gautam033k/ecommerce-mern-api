@@ -9,7 +9,7 @@ const {
   verifyToken,
   verifyTokenAndAuthorization,
   verifyTokenAndAdmin,
-} = require('./verifytoken');
+} = require('./verifyToken');
 
 //update
 router.put('/:id', verifyTokenAndAuthorization, async (req, res) => {

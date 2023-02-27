@@ -8,7 +8,7 @@ const {
   verifyToken,
   verifyTokenAndAuthorization,
   verifyTokenAndAdmin,
-} = require('./verifytoken');
+} = require('./verifyToken');
 
 //CREATE PRODUCT
 
